@@ -170,7 +170,7 @@ def on_message(client, userdata, msg):
             arrival_node = topic_parts[2]
 
             if not uid:
-                print("⚠️ No UID found in arrival message")
+                print("⚠️ No UID found in arrival message Node")
                 return
 
             if uid in queueA:
