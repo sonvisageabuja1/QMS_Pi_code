@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+mqtt-env/
+venv/
+.env/
+.venv/
+
+# Environment/secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+
+# QMS runtime data - do not overwrite during updates
+queues.json
+
+# Old development versions
+mqtt_queue_manager[0-9]*.py
